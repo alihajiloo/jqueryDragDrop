@@ -1,0 +1,36 @@
+#sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+
+#sortable li {
+    margin: 0 3px 3px 3px;
+    padding: 0.4em;
+    padding-left: 1.5em;
+    font-size: 1.4em;
+    height: 18px;
+}
+
+#sortable li span {
+    position: absolute;
+    margin-left: -1.3em;
+}
+html>body #sortable li {
+    height: 1.5em;
+    line-height: 1.2em;
+}
+
+.ui-state-highlight {
+    height: 1.5em;
+    line-height: 1.2em;
+}
+
+.item {
+    border: #c9c9c9;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    box-shadow: #c9c9c9;
+}
